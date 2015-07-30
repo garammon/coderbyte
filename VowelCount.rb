@@ -1,10 +1,10 @@
-def VowelCount(str)
+def WordCount(str)
 
   # code goes here
-  return str.split.count
+  return str.count "\\^aeiou"
          
 end
    
 # keep this function call here 
 # to see how to enter arguments in Ruby scroll down   
-VowelCount(STDIN.gets)  
+WordCount(STDIN.gets)  
